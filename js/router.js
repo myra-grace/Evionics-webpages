@@ -46,9 +46,7 @@ const locationHandler = async () => {
     const html = await fetch(route.template).then((response) => response.text());
     document.getElementById("content").innerHTML = html;
     document.title = route.title;
-    document
-        .querySelector('meta[name="description"]')
-        .setAttribute("content", route.description);
+    document.querySelector('meta[name="description"]').setAttribute("content", route.description);
 };
 
 console.log("window.location.pathname: ", window.location.pathname);
