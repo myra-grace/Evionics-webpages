@@ -16,17 +16,17 @@ const routes = {
     "/": {
         template: "/templates/index.html",
         title: "Home",
-        description: "This is the home page",
+        description: "Evionics homepage",
     },
     "/terms-and-conditions": {
         template: "/templates/terms-and-conditions.html",
         title: "Evionics - Terms and Conditions",
-        description: "This is the about page",
+        description: "Evionics - Terms and Conditions",
     },
     "/privacy-policy": {
         template: "/templates/privacy-policy.html",
         title: "Evionics - Privacy Policy",
-        description: "This is the contact page",
+        description: "Evionics - Privacy Policy",
     },
 };
 
@@ -50,6 +50,8 @@ const locationHandler = async () => {
         .querySelector('meta[name="description"]')
         .setAttribute("content", route.description);
 };
+
+console.log("window.location.pathname: ", window.location.pathname);
 
 window.onpopstate = locationHandler;
 window.route = route;

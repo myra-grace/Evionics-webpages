@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('./assets/fonts/SFProDisplay-Regular.eot');
+    src: url('./assets/fonts/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/SFProDisplay-Regular.woff2') format('woff2'),
+        url('./assets/fonts/SFProDisplay-Regular.woff') format('woff'),
+        url('./assets/fonts/SFProDisplay-Regular.ttf') format('truetype'),
+        url('./assets/fonts/SFProDisplay-Regular.svg#SFProDisplay-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* manrope-200 - latin */
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./assets/fonts/manrope-v13-latin-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./assets/fonts/manrope-v13-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/manrope-v13-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-200.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/manrope-v13-latin-200.svg#Manrope') format('svg'); /* Legacy iOS */
+  }
+  /* manrope-300 - latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./assets/fonts/manrope-v13-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./assets/fonts/manrope-v13-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/manrope-v13-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/manrope-v13-latin-300.svg#Manrope') format('svg'); /* Legacy iOS */
+  }
+  /* manrope-regular - latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/manrope-v13-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./assets/fonts/manrope-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/manrope-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/manrope-v13-latin-regular.svg#Manrope') format('svg'); /* Legacy iOS */
+  }
+  /* manrope-500 - latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./assets/fonts/manrope-v13-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./assets/fonts/manrope-v13-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/manrope-v13-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/manrope-v13-latin-500.svg#Manrope') format('svg'); /* Legacy iOS */
+  }
+  /* manrope-600 - latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/manrope-v13-latin-600.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./assets/fonts/manrope-v13-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/manrope-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-600.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/manrope-v13-latin-600.svg#Manrope') format('svg'); /* Legacy iOS */
+  }
+  /* manrope-700 - latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/manrope-v13-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./assets/fonts/manrope-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/manrope-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/manrope-v13-latin-700.svg#Manrope') format('svg'); /* Legacy iOS */
+  }
+  /* manrope-800 - latin */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./assets/fonts/manrope-v13-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./assets/fonts/manrope-v13-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./assets/fonts/manrope-v13-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-800.woff') format('woff'), /* Modern Browsers */
+         url('./assets/fonts/manrope-v13-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./assets/fonts/manrope-v13-latin-800.svg#Manrope') format('svg'); /* Legacy iOS */
+  }
+
+html, body {
+    font-family: 'SF Pro Display';
+    font-size: 14px;
+    position: relative;
+    margin: 0;
+    color: #595959;
+}
+@media only screen and (min-width: 600px) {
+    html, body {
+        font-size: 18px;
+    }
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-weight: 800;
+    color: black;
+}
+
+a {
+    color: #ff6700;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: calc(840px - 4em);
+}
+
+.header, .footer {
+    background-color: black;
+    padding: 1em;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: sticky;
+    background-color: black;
+    padding: 1em;
+}
+
+.header > .title, .footer > .title {
+    text-align: right;
+    color: white;
+    margin: 0;
+}
+
+.content {
+    padding: 0 2em;
+}
+
+.footer > .title {
+    text-align: center;
+}
