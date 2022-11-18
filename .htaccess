@@ -1,1 +1,19 @@
 Redirect /index.html https://ftex.ca/evionics
+
+RewriteEngine on
+DirectoryIndex index.html
+
+RewriteBase /
+
+ErrorDocument 400 https://ftex.ca/evionics
+ErrorDocument 401 https://ftex.ca/evionics
+ErrorDocument 403 https://ftex.ca/evionics
+ErrorDocument 404 https://ftex.ca/evionics
+ErrorDocument 500 https://ftex.ca/evionics
+
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (?!^templates/)^(.*)$ /templates/$1 [L,NC]
